@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EAEAEA;
+  color: #39393A;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+div.recipe {
+  background-color: #FFFFFF;
+  margin: 15px auto;
+
+  width: 70%;
+  height: 85%;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.title {
+  color: #1B1B1B;
+  font-size: 30px;
+  text-align: center;
+
+}
+h3.title {
+  margin: 12px auto 5px;
+  font-size: 20px;
+}
+
+figure.waffleImg img{
+  width: 94%;
+  height: 270px;
+  object-fit: cover;
+  margin: 0 3%;
+  border-radius: 15px;
+}
+figure.waffleImg figcaption {
+  text-align: right;
+  margin-right: 5%;
+}
+
+ul li, ol li {
+  list-style-position: inside;
+  line-height: 24px;
+}
+
+footer, figcaption {
+  color: #8F8F8F;
+  font-size: 10px;
+}
+
+footer {
+  text-align: center;
+  margin: 15px auto;
+}
